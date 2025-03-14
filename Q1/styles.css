@@ -1,0 +1,136 @@
+/* Custom font and base styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 2rem;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Custom header styling */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin: 0rem 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-left: 0rem;
+}
+
+h3 {
+    color: #3498db;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+
+/* Custom navigation styling */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0;
+    margin: 1rem 0 0;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+}
+
+/* Custom content layout */
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.profile-container, .interest-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.profile-image, .interest-image {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    align-items: center;
+    margin-left: 2 rem;
+}
+
+.profile-image:hover, .interest-image:hover {
+    transform: scale(1.02);
+}
+
+.intro-text, .interest-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Custom link styling */
+a {
+    color: #3498db;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Custom list styling */
+.tools-list {
+    background-color: #e9ecef;
+    padding: 1.5rem 2rem;
+    border-radius: 8px;
+    box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
+}
+
+.tools-list li {
+    margin-bottom: 0.75rem;
+}
+
+/* Custom contact section */
+.contact {
+    background-color: #f1f8ff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    border-left: 5px solid #3498db;
+}
+
+/* Custom footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    margin-top: 3rem;
+}
